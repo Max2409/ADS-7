@@ -36,7 +36,8 @@ int main() {
         trainRand.getLength();
         int opsRand = trainRand.getOpCount();
 
-        std::cout << n << "\t" << opsOff << "\t" << opsOn << "\t" << opsRand << "\n";
+        std::cout << n << "\t" << opsOff << "\t" << opsOn
+                << "\t" << opsRand << "\n";
     }
 
     return 0;
