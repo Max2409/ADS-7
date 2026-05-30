@@ -3,7 +3,7 @@
 #define INCLUDE_TRAIN_H_
 
 class Train {
-private:
+ private:
     struct Car {
         bool light;
         Car *next;
@@ -13,7 +13,7 @@ private:
     int operationCount;   // количество перемещений между вагонами
     Car *startCar;        // точка входа в поезд
 
-public:
+ public:
     Train();
     ~Train();
 
